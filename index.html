@@ -3,14 +3,37 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<title>JavaScript - Homework 001 - Data types and Variables</title>
+	<script type="text/javascript">
+	function togglediv(id) {
+    var div = document.getElementById(id);
+    div.style.display = div.style.display == "none" ? "block" : "none";
+	}
+</script>
 </head>
 <body>
 <div class="wrapper">
-		<h1>Homework 001 - Data types and Variables</h1>
-		<div class="task">
-			<h2>Problem 001 - JavaScript literals</h2>
+		<header>
+			<h1>Homework 001 - Data types and Variables</h1>
+		</header>
+		<nav>
+			<span>Choose task: </span>
+			<ul>
+				<li><button onclick="togglediv('task1')">1</button></li>
+				<li><button onclick="togglediv('task2')">2</button></li>
+				<li><button onclick="togglediv('task3')">3</button></li>
+				<li><button onclick="togglediv('task4')">4</button></li>
+				<li><button onclick="togglediv('task5')">5</button></li>
+				<li><button onclick="togglediv('task6')">6</button></li>
+				<li><button onclick="togglediv('task7')">7</button></li>
+				<li><button onclick="togglediv('task8')">8</button></li>
+				<li><button onclick="togglediv('task9')">9</button></li>
+			</ul>
+		</nav>
+		<main class="content">
+		<div id="task1">
+			<h2>Problem 001 - JavaScript literals< </h2>
 			<article>
-				<pre class="code-print">
+<pre class="code-print">
 	var num = 5;	 // decimal
 	var numHex = 0x7B; // hex
 	var numOctal = 076; // octal
@@ -29,45 +52,86 @@
 			}
 		};
 	variableFunction();
-				</pre>
-				<aside>file : javascript-literals.js</aside>
+</pre>
+				<aside>file : javascript.js</aside>
 			</article>
 		</div>
-		<div class="task">
-			<h2>Problem 002 - Quoted text</h2>
+		<div id="task2">
+			<h2>Problem 002 - quoted text</h2>
 			<article>
-				<pre class="code-print">
+<pre class="code-print">
 	var quotedText = "'How you doin'?', Joey said'";
-				</pre>
-				<aside>file : quoted-text.js</aside>				
+</pre>
+				<aside>file : javascript.js</aside>				
 			</article>
 		</div>
-		<div class="task">
+		<div id="task3">
 			<h2>Problem 003 - typeof</h2>
 			<article>
-				<pre class="code-print">
+<pre class="code-print">
 	var variableTypes = function () {
 		for (var i = 0; i < allVariablesArray.length; i+=1) {
 			console.log(typeof allVariablesArray[i]);
 		}
 	};
-				</pre>
-				<aside>file : javascript-literals.js</aside>				
+</pre>
+				<aside>file : javascript.js</aside>				
 			</article>
 		</div>
-		<div class="task">
-			<h2>Problem 004 - null & undefined</h2>
+		<div id="task4">
+			<h2>Problem 004 - null undefined</h2>
 			<article>
-				<pre class="code-print">
+<pre class="code-print">
 	var varNull = null;
 	var varUndefined = undefined;
 
 	console.log(typeof varNull);
 	console.log(typeof varUndefined);
-				</pre>
-				<aside>file : javascript-literals.js</aside>				
+</pre>
+				<aside>file : javascript.js</aside>				
 			</article>
-		</div>		
+		</div>
+		<div id="task5">
+			<h2>Problem 005 </h2>
+			<article>
+<pre class="code-print">
+</pre>
+				<aside>file : javascript.js</aside>				
+			</article>
+		</div>	
+		<div id="task6">
+			<h2>Problem 006 </h2>
+			<article>
+<pre class="code-print">
+</pre>
+				<aside>file : javascript.js</aside>				
+			</article>
+		</div>	
+		<div id="task7">
+			<h2>Problem 007 </h2>
+			<article>
+<pre class="code-print">
+</pre>
+				<aside>file : javascript.js</aside>				
+			</article>
+		</div>
+		<div id="task8">
+			<h2>Problem 008 </h2>
+			<article>
+<pre class="code-print">
+</pre>
+				<aside>file : javascript.js</aside>				
+			</article>
+		</div>
+		<div id="task9">
+			<h2>Problem 009 </h2>
+			<article>
+<pre class="code-print">
+</pre>
+				<aside>file : javascript.js</aside>				
+			</article>
+		</div>	
+		</main>				
 </div>
 <script type="text/javascript" src="javascript-literals.js"></script>
 <script type="text/javascript" src="quoted-text.js"></script>

@@ -1,0 +1,22 @@
+	.wrapper {
+		width: 800px;
+		margin:0 auto;
+	}
+	html,body {
+		font-family: Consolas,Verdana,sans-serif;
+		background-color: black;
+		color:green;
+		font-size: 18px;
+	}
+	h1 {font-size: 36px;}
+	h2 {font-size: 24px; padding-left: 20px;}
+	.task {
+		border:2px solid gray;	
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	article {
+		font-size: 16px;
+		color: white;
+	}
+	aside {color:#CCC; border: 1px solid gray; padding-left: 20px; padding-top: 2px; padding-bottom: 2px;}
